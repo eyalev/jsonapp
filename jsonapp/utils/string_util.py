@@ -143,4 +143,3 @@ def print_lines(string_list):
 
     for string in string_list:
         print(string)
-

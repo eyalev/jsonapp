@@ -59,4 +59,3 @@ def copy_to_clipboard(text):
 def do_copy_to_clipboard(text):
 
     copy_to_clipboard(text)
-

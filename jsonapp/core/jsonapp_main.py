@@ -51,5 +51,3 @@ class JSONApp(object):
 
 
 json_app = JSONApp()
-
-

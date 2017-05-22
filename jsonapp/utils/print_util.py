@@ -38,9 +38,3 @@ def text_with_separators(text, top_space=True, space=False):
     )
 
     return result
-
-
-
-
-
-

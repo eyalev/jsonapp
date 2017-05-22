@@ -30,4 +30,3 @@ class StringBaseUtil(object):
 
         if _datetime is None:
             raise exceptions[-1]
-
