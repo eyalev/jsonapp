@@ -26,7 +26,7 @@ class JSONUtil(object):
         else:
             try:
                 return json.loads(self.json_input, object_pairs_hook=collections.OrderedDict)
-            except ValueError, e:
+            except ValueError:
                 return collections.OrderedDict()
 
     @property
