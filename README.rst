@@ -21,17 +21,18 @@ jsonapp
 A command line utility that helps dealing with JSON data.
 
 
-* Free software: MIT license
-* Documentation: https://jsonapp.readthedocs.io.
-
-
 Features
 --------
 
 * Format JSON strings
 
+Documentation
+-------------
+
+https://jsonapp.readthedocs.io
+
 Credits
----------
+-------
 
 This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
 
