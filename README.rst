@@ -3,8 +3,8 @@ jsonapp
 =======
 
 
-.. image:: https://img.shields.io/pypi/v/jsonapplib.svg
-        :target: https://pypi.python.org/pypi/jsonapp
+.. image:: https://img.shields.io/pypi/v/jsonapp-package.svg
+        :target: https://pypi.python.org/pypi/jsonapp-package
 
 .. image:: https://img.shields.io/travis/eyalev/jsonapp.svg
         :target: https://travis-ci.org/eyalev/jsonapp

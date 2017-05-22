@@ -15,7 +15,7 @@ requirements = [
 ]
 
 setup(
-    name='jsonapp',
+    name='jsonapp-package',
     version='0.1.0',
     description="A command line utility that helps dealing with JSON data.",
     long_description=readme + '\n\n' + history,
