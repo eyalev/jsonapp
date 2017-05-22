@@ -12,6 +12,7 @@ with open('HISTORY.rst') as history_file:
 requirements = [
     'Click>=6.0',
     'xerox==0.4.1',
+    'six==1.10.0',
 ]
 
 setup(

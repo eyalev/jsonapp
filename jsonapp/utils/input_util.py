@@ -2,6 +2,8 @@ from datetime import datetime
 
 from collections import OrderedDict
 
+import six
+
 from jsonapp.utils.string_base_util import StringBaseUtil
 
 
@@ -50,8 +52,7 @@ class InputUtil(object):
             return datetime_string
 
     def is_string(self):
-
-        return isinstance(self.input, basestring)
+        return isinstance(self.input, six.string_types)
 
     def is_datetime(self):
 
