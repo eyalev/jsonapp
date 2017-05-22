@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import click
-from core.jsonapp_main import json_app, user_output, script_output
+from jsonapp.core.jsonapp_main import json_app, user_output, script_output
 
 
 @click.group()
