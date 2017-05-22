@@ -11,7 +11,7 @@ def validate_datetime_string(datetime_string):
     StringBaseUtil(datetime_string).to_datetime()
 
 
-class InputUtil(object):
+class Input(object):
 
     def __init__(self, _input):
         self.input = _input
@@ -91,5 +91,3 @@ class InputUtil(object):
     def is_not_valid_datetime_string(self):
 
         return not self.is_valid_datetime_string()
-
-Input = InputUtil
