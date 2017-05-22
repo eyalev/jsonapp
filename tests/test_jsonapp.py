@@ -10,7 +10,7 @@ Tests for `jsonapp` module.
 
 import pytest
 
-from contextlib import contextmanager
+# from contextlib import contextmanager
 from click.testing import CliRunner
 
 from jsonapp import jsonapp_cli
