@@ -61,5 +61,8 @@ target/
 # pyenv python configuration file
 .python-version
 
+# virualenv
+.venv
+
 # IDEs
 .idea
