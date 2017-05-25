@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from setuptools import setup
+from setuptools import setup, find_packages
 
 with open('README.rst') as readme_file:
     readme = readme_file.read()
@@ -23,11 +23,7 @@ setup(
     author="Eyal Levin",
     author_email='eyalev@gmail.com',
     url='https://github.com/eyalev/jsonapp',
-    packages=[
-        'jsonapp',
-    ],
-    package_dir={'jsonapp':
-                 'jsonapp'},
+    packages=find_packages(exclude=['tests']),
     entry_points={
         'console_scripts': [
             'jsonapp=jsonapp.jsonapp_cli:cli'
